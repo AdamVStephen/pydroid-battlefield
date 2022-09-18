@@ -38,7 +38,6 @@ def select_sound(all_sounds):
     > 
     """
     print(msg)
-    controller = assign_hotkeys(sounds)
     pygame.init()
     screen = surface = pygame.display.set_mode((640, 480))
     clock = pygame.time.Clock()
