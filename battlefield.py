@@ -40,7 +40,7 @@ def select_sound(all_sounds):
     > 
     """
     print(msg)
-    controller = assign_hotkeys(sounds)
+    #controller = assign_hotkeys(sounds)
     #getch = _GetchUnix()
     pygame.init()
     surface = pygame.display.set_mode((640, 480))
@@ -53,7 +53,7 @@ def select_sound(all_sounds):
 
     # rendering a text written in
     # this font
-    text = smallfont.render('quit', True, color)
+    #text = smallfont.render('quit', True, color)
     touched = False
     mixer.init()
     mixer.music.set_volume(0.7)
